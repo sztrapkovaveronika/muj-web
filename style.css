@@ -10,9 +10,13 @@ html {
 
 /* ------------------------------ */
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
-    padding: 130px 30px;
-    font-size: 80px;
+    padding: 130px 50px;
+    font-size: 60px;
     text-align: center;
     margin: 0;
     font-family: "Dancing Script", cursive;
@@ -27,20 +31,41 @@ nav {
     background-color: #4e635e;
     text-align: center;
     padding: 30px;
+    border-bottom: 2px solid #818c78;
 }
 
 nav a {
-    padding: 20px;
+    padding: 30px;
     color: #e3e0c8;
     text-decoration: none;
     font-family: "Dancing Script", cursive;
-    font-size: 20px;
+    font-size: 30px;
 
     
 }
 
 nav a:hover {
     background-color: #818c78;
-    border-radius: 25%;
     
 }
+
+section {
+    padding: 60px;
+    background-color: #a6b49e;
+}
+
+h2 {
+    color: #374542;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+}
+
+p {
+    color: #4e635e;
+    font-family: "Quicksand", sans-serif;
+}
+
+.omne {
+    
+}
+
