@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/* ------------------------------ */
+
+h1 {
+    padding: 130px 30px;
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+    font-family: "Dancing Script", cursive;
+    color: #e3e0c8;
+    background: url("obrazky/StockCake-Mountain\ View\ Hike_1743341429.jpg") center center no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid #818c78;
+
+}
+
+nav {
+    background-color: #4e635e;
+    text-align: center;
+    padding: 30px;
+}
+
+nav a {
+    padding: 20px;
+    color: #e3e0c8;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+
+    
+}
+
+nav a:hover {
+    background-color: #818c78;
+    border-radius: 25%;
+    
+}
