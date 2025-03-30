@@ -57,16 +57,25 @@ section {
 
 h2 {
     color: #374542;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Dancing Script", cursive;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 p {
     color: #4e635e;
-    font-size: 17px;
+    font-size: 20px;
     font-family: "Quicksand", sans-serif;
     
+}
+
+a {
+    color: #374542;
+    font-style: italic;
+}
+
+a:hover {
+    color:#818c78;
 }
 
 
@@ -92,11 +101,11 @@ p {
 }
 
 .meweby p {
-    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .meweby img {
-    width: 45%;
+    width: 24%;
     border: 2px solid #818c78;
     border-radius: 20%;
 }
