@@ -52,20 +52,44 @@ nav a:hover {
 section {
     padding: 60px;
     background-color: #a6b49e;
+    overflow: auto;
 }
 
 h2 {
     color: #374542;
     font-size: 30px;
     font-family: "Dancing Script", cursive;
+    margin-bottom: 15px;
 }
 
 p {
     color: #4e635e;
+    font-size: 17px;
     font-family: "Quicksand", sans-serif;
+    margin-top: 15px;
 }
 
-.omne {
-    
+.cestakprogramovani, .kontakt {
+    background-color: #94a18a;
 }
 
+.omne img{
+    border-radius: 25%;
+    width: 150px;
+    float: right;
+    margin-left: 30px;
+    border: 2px solid #818c78;
+}
+
+.meweby img {
+    width: 45%;
+    border: 2px solid #818c78;
+    border-radius: 20%;
+}
+
+footer p {
+    text-align: center;
+    padding: 25px 0;
+    color: #e3e0c8;
+    background-color: #4e635e;
+}
