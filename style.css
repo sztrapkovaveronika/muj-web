@@ -27,6 +27,21 @@ h1 {
 
 }
 
+h2 {
+    color: #374542;
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #4e635e;
+    font-size: 35px;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 nav {
     background-color: #4e635e;
     text-align: center;
@@ -56,12 +71,6 @@ section {
     overflow: auto;
 }
 
-h2 {
-    color: #374542;
-    font-size: 40px;
-    font-family: "Dancing Script", cursive;
-    margin-bottom: 20px;
-}
 
 p {
     color: #4e635e;
@@ -93,6 +102,7 @@ a:hover {
     float: right;
     margin-left: 30px;
     border: 2px solid #818c78;
+    
 }
 
 
