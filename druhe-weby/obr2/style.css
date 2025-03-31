@@ -10,6 +10,11 @@ html {
 
 /* ------------------------------ */
 
+body img {
+    width: 100%;
+}
+
 body {
-    background: url(obrazky-webu/obr1.jpeg) auto;
+  margin: 0;
+  background-color:#94a18a;
 }
