@@ -12,30 +12,39 @@ html {
 
 html {
     scroll-behavior: smooth;
+    box-sizing: initial;
 }
 
+body {
+    background-color: #a2c3a7;
+    
+}
+
+
+
 h1 {
-    padding: 150px 60px;
-    font-size: 60px;
+    padding: 40px;
+    font-size: 50px;
     text-align: center;
     margin: 0;
     font-family: "Dancing Script", cursive;
-    color: #e3e0c8;
+    color: #DAF1DE;
     background: url("obrazky/obr1.jpeg") center center no-repeat;
     background-size: cover;
-    border-bottom: 2px solid #818c78;
-
+    border-bottom: 4px solid #051F20;
+    border-top: 4px solid #051F20;
 }
 
 h2 {
-    color: #374542;
+    color: #051F20;
     font-size: 40px;
     font-family: "Dancing Script", cursive;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 h3 {
-    color: #4e635e;
+    color: #051F20;
     font-size: 35px;
     font-family: "Dancing Script", cursive;
     text-align: center;
@@ -43,32 +52,35 @@ h3 {
 }
 
 nav {
-    background-color: #4e635e;
-    text-align: center;
-    padding: 30px;
-    border-bottom: 2px solid #818c78;
+    background-color: #163832;
+    text-align: right;
+    padding: 20px;
+    
+    
 }
 
 nav a {
-    padding: 30px;
-    color: #e3e0c8;
+    padding: 20px;
+    margin: 10px;
+    color: #DAF1DE;
     text-decoration: none;
     font-family: "Dancing Script", cursive;
-    font-size: 30px;
+    font-size: 25px;
 
     
 }
 
 nav a:hover {
-    background-color: #818c78;
-    color: #e3e0c8;
+    background-color: #235347;
+    color: #DAF1DE;
     
 }
 
 section {
-    padding: 60px;
-    background-color: #a6b49e;
+    padding: 50px 20%;
     overflow: auto;
+    
+   
 }
 
 
@@ -76,7 +88,7 @@ p {
     color: #4e635e;
     font-size: 20px;
     font-family: "Quicksand", sans-serif;
-    
+    text-align: left;
 }
 
 a {
@@ -85,47 +97,47 @@ a {
 }
 
 a:hover {
-    color:#818c78;
+    color: #8EB69B;
 }
-
-
-
-.cestakprogramovani, .kontakt {
-    background-color: #94a18a;
-}
-
 
 
 .omne img{
-    border-radius: 25%;
+    border-radius: 20%;
     width: 150px;
     float: right;
     margin-left: 30px;
-    border: 2px solid #818c78;
+    border: 2px solid #051F20;
     
 }
 
 
-
-.meweby h2 {
-    margin-bottom: 15px;
+.cestakprogramovani h2 {
+    text-align: center;
 }
 
-.meweby p {
-    margin-bottom: 20px;
+.cestakprogramovani, .maprace {
+    background-color: #8EB69B;
 }
 
-.meweby img {
+.maprace img {
     width: 24%;
     border: 2px solid #818c78;
     border-radius: 20%;
 }
 
+.maprace p {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.kontakt h2 {
+    text-align: left;
+}
 
 footer p {
     text-align: center;
     padding: 25px 0;
-    color: #e3e0c8;
-    background-color: #4e635e;
+    color: #DAF1DE;
+    background-color: #163832;
+    border-top: 4px solid #051F20;
 }
