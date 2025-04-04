@@ -114,9 +114,13 @@ a:hover {
 
 .omne h2 {
     text-align: left;
-    margin-left: 28%;
+    margin-left: 24%;
 }
 
+
+.cestakprogramovani {
+    padding-bottom: 0;
+}
 
 .cestakprogramovani h2 {
     text-align: center;
@@ -136,6 +140,12 @@ a:hover {
     text-align: center;
     margin-bottom: 30px;
 }
+
+.maprace {
+    padding-top: 0;
+}
+
+
 
 .kontakt h2 {
     text-align: left;
