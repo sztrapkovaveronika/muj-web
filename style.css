@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background-color: #a2c3a7;
+    background-color: #163832;
     margin: 0;
     
 }
@@ -150,6 +150,13 @@ a:hover {
 .kontakt h2 {
     text-align: left;
 }
+
+
+.omne, .kontakt {
+    background-color: #a2c3a7;
+}
+
+
 
 footer p {
     margin: 0;
